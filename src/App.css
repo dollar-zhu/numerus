@@ -1,0 +1,20 @@
+html{
+  background-color: var(--moon);
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 798px;
+    margin: 0 auto;
+    gap: 4rem;
+    padding-top: 6rem;
+    padding-bottom: 8rem
+}
+
+.text-center{
+    text-align: center;
+}
