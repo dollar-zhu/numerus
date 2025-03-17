@@ -3,13 +3,11 @@ account_id = "e91f5bec27ce334e3aa4d8fe0caa4353"
 workers_dev = true
 compatibility_date = "2025-03-17"
 
-
 [build]
 command = "npm run build"
 
 [site]
 bucket = "./dist"
-entry-point = "workers-site" # Optional, defaults to workers-site
 
 # Keep this if you have a custom domain, otherwise you can remove it
 [env.production]
