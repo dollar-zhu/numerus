@@ -3,14 +3,9 @@ account_id = "e91f5bec27ce334e3aa4d8fe0caa4353"
 workers_dev = true
 compatibility_date = "2025-03-17"
 
-main = "./dist/index.html"
 
 [build]
 command = "npm run build"
 
 [site]
 bucket = "./dist"
-
-[env.production]
-route = "dollarzhu-bizz.workers.dev"
-zone_id = "56f40c46fe27fe775f81c21d9f746a8b"
